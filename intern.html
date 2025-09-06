@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> 🥁Virtual Drum Kit</h1>
+        <p class="subtitle">Play drums with your keyboard!</p>
+        <p class="instruction">Press the keys shown below or click the drum pads to create your beat</p>
+    </header>
+
+    <main>
+        <div class="drum-kit">
+            <button class="drum-pad" data-key="65" data-sound="kick">
+                <span class="key">A</span>
+                <span class="drum-icon">🥁</span>
+                <span class="sound-name">Kick</span>
+            </button>
+            <button class="drum-pad" data-key="83" data-sound="snare">
+                <span class="key">S</span>
+                <span class="drum-icon">🪘</span>
+                <span class="sound-name">Snare</span>
+            </button>
+            <button class="drum-pad" data-key="68" data-sound="tom1">
+                <span class="key">D</span>
+                <span class="drum-icon">⚡</span>
+                <span class="sound-name">Tom-1</span>
+            </button>
+            <button class="drum-pad" data-key="70" data-sound="tom2">
+                <span class="key">F</span>
+                <span class="drum-icon">💫</span>
+                <span class="sound-name">Tom-2</span>
+            </button>
+            <button class="drum-pad" data-key="71" data-sound="tom3">
+                <span class="key">G</span>
+                <span class="drum-icon">💥</span>
+                <span class="sound-name">Tom-3</span>
+            </button>
+            <button class="drum-pad" data-key="72" data-sound="t7om4">
+                <span class="key">H</span>
+                <span class="drum-icon">🌟</span>
+                <span class="sound-name">Tom-4</span>
+            </button>
+            <button class="drum-pad" data-key="74" data-sound="crash">
+                <span class="key">J</span>
+                <span class="drum-icon">🎯</span>
+                <span class="sound-name">Crash</span>
+            </button>
+           
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>🎵Create amazing beats with your keyboard</p>
+            <p>Sounds provided by: <a href="https://github.com/indusaisolutions/sounds" class="github-link" target="_blank">IndusAI Solutions</a></p>
+            <p>Press any key(A, S, D, F, G, H, J) to start drumming!</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
