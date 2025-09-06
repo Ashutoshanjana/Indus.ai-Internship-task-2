@@ -1,13 +1,13 @@
 ## 🥁Virtual Drum Kit
 
 
-## Content
+## 🌟Content
 
 - **Header**
 - **Main**
 - **Footer**
 
-## Tech Stack
+## ⚒️Tech Stack
 
 - **HTML**
 - **CSS**
@@ -19,7 +19,7 @@ This project is **frontend-only and better understanding of JavaScript**
 
 ---
 
-## Author
+## 👨‍💻Author
 
 **Ashutosh Anjana**
 
